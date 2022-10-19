@@ -27,14 +27,13 @@ export default function BarraNav() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Inicio</Nav.Link>
-                  <Nav.Link href="#action2">Modificar Datos</Nav.Link>
-                  <Nav.Link href="/registroProfesor">Registro Usuario</Nav.Link>
+                  <Nav.Link href="#action1"><i class="fa-sharp fa-solid fa-house-user"></i> Inicio</Nav.Link>
+                  <Nav.Link href="/datosProfesor">Modificar Datos</Nav.Link>
                   <Nav.Link href="#action2">Tomar Asistencia</Nav.Link>
                   <Nav.Link href="#action2">Feriados</Nav.Link>
          
                 </Nav>               
-                <Button href="#action2">Cerrar Sesion</Button>
+                <Button href="#action2"><i class="fa-solid fa-user-xmark"></i> Cerrar Sesion</Button>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>

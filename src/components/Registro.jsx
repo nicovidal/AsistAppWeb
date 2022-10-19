@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Registro = () => {
+export function Registro  ()  {
   return (
     <div>
         <div className="container mt-4">
@@ -16,28 +16,27 @@ export const Registro = () => {
               <div className="card-body">
                 <form onSubmit={"guardar"}>
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="form-group">
                       <label>Nombre</label>
                       <input type="text" className="form-control required" />
                     </div>
-                    <div className="col-md-6">
+                    <div className="form-group">
                       <label>Apellido</label>
                       <input type="text" className="form-control required" />
                     </div>
-                    <div className="col-md-6">
+                    <div className="form-group">
                       <label>Contraseña</label>
                       <input type="password" className="form-control required" />
                     </div>
-                    <div className="col-md-6">
+                    <div className="form-group">
                       <label>Repita Contraseña</label>
                       <input type="passwordPass" className="form-control required" />
                     </div>
-                    <div className="col-md-6">
+                    <div className="form-group">
                       <label>Email</label>
                       <input type="mail" className="form-control required" />
                     </div>
                   </div>
-
                   <button type="submit" class="btn btn-outline-info">
                     <span class="fa fa-save"></span> Guardar
                   </button>
